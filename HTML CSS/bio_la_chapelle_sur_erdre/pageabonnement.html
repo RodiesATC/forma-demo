@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Mon abonnement</title>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="menu_gauche">
+        <img
+          class="logo"
+          src="/HTML CSS/bio_la_chapelle_sur_erdre/ressources/logo.jpg"
+          alt="Beau logo"
+        />
+        <h1>Mon abonnement</h1>
+      </div>
+      <div class="menu_droite">
+        <img
+          class="photo_personnage"
+          src="/HTML CSS/bio_la_chapelle_sur_erdre/ressources/photo_visiteur.jpg"
+          alt="photo
+      visiteur"
+        />
+
+        <p>Rodrigue</p>
+        <p>connecté</p>
+
+        <a href="/HTML CSS/bio_la_chapelle_sur_erdre/autrepage.html"
+          >Mon compte</a
+        >
+        <a href="/HTML CSS/bio_la_chapelle_sur_erdre/index.html">Déconnexion</a>
+      </div>
+    </div>
+
+    <h2>Mon compte</h2>   
+      <div class="main">
+        
+      <div class="form_gauche">
+      <form method="get">
+        <p>
+          Votre nom:<input name="name" type="text" placeholder="Votre nom ?" />
+        </p>
+        <p>
+          Votre prénom:<input
+            name="prénom"
+            type="text"
+            placeholder="Votre prénom ?"
+          />
+        </p>
+        <p>
+          Votre date de naissance:<input
+            name="date_de_naissance"
+            type="date"
+            placeholder="Votre date de naissance ?"
+          />
+        </p>
+        <p>
+          Votre groupe préféré:
+          <select name="groupe_préféré" type="">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+        </p>
+      </div>
+      <div class="form_droite">
+        <p>
+          Votre mail:<input
+            name="mail"
+            type="email"
+            placeholder="Votre mail ?"
+          />
+        </p>
+      
+      
+        <p>
+          Votre téléphone:<input
+            name="téléphone"
+            type="tel"
+            placeholder="Votre téléphone ?"
+          />
+        </p>
+        <p>
+          Votre mot de passe:<input
+            name="mdp"
+            type="password"
+            placeholder="Votre mot de passe ?"
+          />
+        </p>
+        <p>
+          Répéter votre mot de passe:<input
+            name="mdp"
+            type="password"
+            placeholder="Votre mot de passe ?"
+          />
+        </p>
+      </div>
+    </div>
+
+    <footer>
+        <h2>Votre abonnement</H2>
+        
+        <div class="tableau">
+        <table>
+          <thead>
+            <th></th>
+            <th><input type="radio" name="formule" />Découverte</th>
+            <th><input type="radio" name="formule" />Premium</th>
+            <th>
+              <input type="radio" name="formule" checked="checked" />Premium+
+            </th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Web</td>
+              <td>
+                <img
+                  src="/HTML CSS/bio_la_chapelle_sur_erdre/ressources/check-solid.svg"
+                />
+              </td>
+              <td>
+                <img
+                  src="/HTML CSS/bio_la_chapelle_sur_erdre/ressources/check-solid.svg"
+                />
+              </td>
+              <td>
+                <img
+                  src="/HTML CSS/bio_la_chapelle_sur_erdre/ressources/check-solid.svg"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Mobile</td>
+              <td>
+                <img
+                  src="/HTML CSS/bio_la_chapelle_sur_erdre/ressources/xmark-solid.svg"
+                />
+              </td>
+              <td>
+                <img
+                  src="/HTML CSS/bio_la_chapelle_sur_erdre/ressources/check-solid.svg"
+                />
+              </td>
+              <td>
+                <img
+                  src="/HTML CSS/bio_la_chapelle_sur_erdre/ressources/check-solid.svg"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Ecoute illimitée</td>
+              <td>
+                <img
+                  src="/HTML CSS/bio_la_chapelle_sur_erdre/ressources/xmark-solid.svg"
+                />
+              </td>
+              <td>
+                <img
+                  src="/HTML CSS/bio_la_chapelle_sur_erdre/ressources/xmark-solid.svg"
+                />
+              </td>
+              <td>
+                <img
+                  src="/HTML CSS/bio_la_chapelle_sur_erdre/ressources/check-solid.svg"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Tarifs</td>
+              <td>5,99€ /mois</td>
+              <td>7,99€ /mois</td>
+              <td>9,99€ /mois</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+        <p>
+          <input type="checkbox" /> Recevoir nos mails
+          <input type="checkbox" /> Recevoir les mails partenaires
+        </p>
+        <input type="reset" />
+        <input type="submit" />
+      </form>
+    </footer>
+      
+    
+    
+  </body>
+</html>

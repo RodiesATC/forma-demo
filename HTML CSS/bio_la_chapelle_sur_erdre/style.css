@@ -1,0 +1,39 @@
+.logo {
+  width: 15%;
+}
+
+.photo_personnage {
+  width: 20%;
+  height: 50px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+.menu_gauche {
+  display: flex;
+}
+
+.menu_droite {
+  display: flex;
+  margin-right: 50px;
+}
+
+.footer {
+  display: block;
+  justify-content: center;
+}
+
+.tableau {
+  justify-content: center;
+}
+
+table {
+  text-align: center;
+}
